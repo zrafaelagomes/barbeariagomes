@@ -87,20 +87,19 @@ export default function Hero() {
           </a>
         </div>
 
-        {/* Stats */}
-        <dl className="flex gap-8 md:gap-12 mt-16 pt-10 border-t border-gold/10 flex-wrap">
+        {/* Stats — grid fixo de 3 colunas no mobile para não quebrar linha */}
+        <dl className="grid grid-cols-3 gap-4 md:gap-12 mt-12 pt-8 border-t border-gold/10 pb-20 md:pb-0">
           {stats.map(({ value, label }) => (
             <div key={label}>
-              <dt className="font-serif text-gold text-2xl md:text-3xl italic">{value}</dt>
-              {/* Opacidade aumentada de /40 para /60 */}
-              <dd className="text-cream/60 text-xs tracking-wide mt-1">{label}</dd>
+              <dt className="font-serif text-gold text-xl md:text-3xl italic leading-tight">{value}</dt>
+              <dd className="text-cream/60 text-[10px] md:text-xs tracking-wide mt-1 leading-tight">{label}</dd>
             </div>
           ))}
         </dl>
       </div>
 
-      {/* Scroll indicator */}
-      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-gold/60" aria-hidden="true">
+      {/* Scroll indicator — só aparece em desktop para não colidir */}
+      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 hidden md:flex flex-col items-center gap-2 text-gold/60" aria-hidden="true">
         <span className="text-[9px] tracking-[4px] uppercase">Scroll</span>
         <div className="w-px h-14 bg-gradient-to-b from-gold/50 to-transparent animate-shimmer" />
       </div>
