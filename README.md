@@ -164,14 +164,6 @@ Contributions are welcome! Please follow these guidelines:
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-### Contact
-
-For inquiries about the barbershop or website:
-- WhatsApp: +55 87 9886-18829
-- Website: [Your website URL]
-
----
-
 ## 🇧🇷 Português
 
 ### Sobre o Projeto
