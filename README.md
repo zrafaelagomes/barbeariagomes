@@ -332,12 +332,6 @@ Contribuições são bem-vindas! Siga estas diretrizes:
 
 Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para detalhes.
 
-### Contato
-
-Para consultas sobre a barbearia ou site:
-- WhatsApp: +55 87 9886-18829
-- Site: [URL do seu site]
-
 ---
 
 **Made with ❤️ for Barbearia Gomes** | **Feito com ❤️ para Barbearia Gomes**
